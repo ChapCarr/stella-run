@@ -69,15 +69,15 @@ int main(void)
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Stella Run");
     InitAudioDevice();
 
-    Sound sound_jump = LoadSound("jump.mp3");
-    Sound sound_jetpack = LoadSound("jetpack.mp3");
+    Sound sound_jump = LoadSound("Assets/jump.mp3");
+    Sound sound_jetpack = LoadSound("Assets/jetpack.mp3");
 
     SetTargetFPS(60);
-    Texture2D stella = LoadTexture("stellapng.png");
-    Texture2D stellaJetPack = LoadTexture("stellaJetpack.png");
-    Texture2D cat1 = LoadTexture("cat1New.png");
-    Texture2D cat2 = LoadTexture("cat2New.png");
-    Texture2D cat3 = LoadTexture("cat3New.png");
+    Texture2D stella = LoadTexture("Assets/stellapng.png");
+    Texture2D stellaJetPack = LoadTexture("Assets/stellaJetpack.png");
+    Texture2D cat1 = LoadTexture("Assets/cat1New.png");
+    Texture2D cat2 = LoadTexture("Assets/cat2New.png");
+    Texture2D cat3 = LoadTexture("Assets/cat3New.png");
 
     SetTextureFilter(stella,TEXTURE_FILTER_POINT);
     SetTextureFilter(stellaJetPack,TEXTURE_FILTER_POINT);  
